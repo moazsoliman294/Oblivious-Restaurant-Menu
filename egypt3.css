@@ -1,0 +1,116 @@
+body{
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+}
+header h3{
+    text-align: center;
+    font-size: 37px;
+    color: aliceblue;
+}
+header{
+    background-color: rgb(245, 144, 72);
+    top: 0;
+    border-radius: 20px;
+    align-items: center;
+}
+nav ul{
+   margin-left: 190px;
+}
+nav li{
+    text-align: center;
+    display: inline;
+    margin-right: 25px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+  list-style:none ;
+  color: aliceblue;
+}
+#g{
+    margin-right: 90px;
+}
+.moaz{
+    display:flex;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+ h2{
+ font-size: 33px;
+ color: rgb(130, 35, 4);
+ margin-bottom: 20px;
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+}
+.moaz p{
+    color: rgb(241, 236, 233);
+    font-size: 25px;
+    margin-top: 0;
+    display: inline;
+    margin-bottom: 0;
+}
+.moaz .a{
+    border-radius: 20px;
+   margin-left: 93px;
+}
+.moaz .a:hover{
+ transform: scale(1.1);
+}
+.moaz .b{
+    border-radius: 20px;
+    margin-left: 166px;
+    width: 320px;
+    height: 177px;
+}
+.moaz .b:hover{
+    transform: scale(1.1);
+ }
+.moaz .c{
+    border-radius: 20px;
+    margin-left: 51px;
+    width: 320px;
+    height: 177px;
+}
+.moaz .c:hover{
+    transform: scale(1.1);
+ }
+.moaz .d{
+    border-radius: 20px;
+    margin-left: 205px;
+    width: 320px;
+    height: 177px;
+}
+.moaz .d:hover{
+    transform: scale(1.1);
+}
+.moaz .e{
+    border-radius: 20px;
+    margin-left: 213px;
+    width: 320px;
+    height: 177px;
+}
+.moaz .e:hover{
+    transform: scale(1.1);
+}
+.moaz .f{
+    border-radius: 20px;
+    margin-left: 142px;
+    width: 320px;
+    height: 177px;
+}
+.moaz .f:hover{
+    transform: scale(1.1);
+}
+footer{
+    margin-top: 40px;
+}
+footer a{
+    font-size: 28px;
+    margin-left: 30px;
+    color: chocolate;
+    text-decoration: none;
+}
+
