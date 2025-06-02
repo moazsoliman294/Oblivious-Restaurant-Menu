@@ -1,0 +1,297 @@
+.card{
+    width: 330px;
+    height: 293px;
+    background-image: linear-gradient(rgb(8, 8, 51));
+    border-radius: 22px;
+    transition: all .3s;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 10px  rgb(18, 18, 19);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+     transform: translateY(100px) scale(0.6);
+    animation: identifier 4s linear forwards;
+    animation-timeline:view() ;
+    animation-range:entry 0% ;
+    opacity: 0;
+}
+@keyframes identifier {
+    from{
+        opacity: 0;
+        transform: translateY(50px) scale(0.1);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card2{
+     width: 330px;
+    height: 293px;
+    background-color:rgb(5, 5, 22);
+    transition: all .7s ease-in-out;
+     border-radius: 20px;
+     position: absolute;
+}
+
+.card2:hover{
+    transform: scale(0.98);
+   background: transparent;
+}
+.moaz{
+display: block;
+width: 100%;
+height: 50%;
+object-fit: cover;
+position: absolute;
+border-radius: 22px;
+}
+#ww{
+padding-top: 157px;
+position: absolute;
+color: rgb(146, 134, 134);
+padding-left: 10px;
+position: absolute;
+font-size: 22px;
+}
+h1{
+position: absolute;
+font-size: 25px;
+color: rgb(180, 161, 161);
+padding-left: 220px;
+padding-top: 260px;
+}
+.card-ss{
+  margin-bottom: 25px;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-left: 40px;
+}
+
+#hh{
+font-size: 30px;
+display: block;
+margin: auto;
+padding-top: 15px;
+position: absolute;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+color: rgb(232, 219, 219);
+transition: opacity 0.7s;
+}
+.card2:hover +#hh{
+  opacity: 0;
+}
+#hh:hover{
+    opacity: 0;
+}
+#title{
+font-size: 60px;
+color: white;
+padding-left: 250px;
+padding-top: 15px;
+position:absolute;
+padding-bottom: 30px;
+background: url(images\ \(5\).jfif);
+background-size: contain;
+background-clip: text;
+color: transparent;
+font-weight: bolder;
+opacity: 0;
+    animation: animates 1s ease-in-out 1
+    forwards;
+}
+@keyframes animates {
+    from{
+        opacity: 5;
+       
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+.img{
+    width: 1195px;
+    height: 557px;
+    background-image: url(sunrise-phu-quoc-island-ocean.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    border-image:fill 0 linear-gradient(rgba(63, 62, 62, 0),#0b0b0b);
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.button{
+    position: absolute;
+    background: transparent;
+    font-size: 19px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    margin-top: 376px;
+    color: white;
+     margin-left: 313px;
+    border: 2px solid white;
+   width: 170px;
+   transition: all 0.40s linear;
+   border-radius: 20px;
+   font-weight: 200;
+   cursor: pointer;
+}
+.button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.info{
+    margin-left: 50px;
+}
+#prag{
+    font-size: 60px;
+    color:rgb(1, 43, 60);
+    margin-top: 157px;
+    margin-left: 240px;
+    position: absolute;
+    
+    animation: animate 1s ease-in-out 1
+    forwards;
+}
+#pra{
+    font-size: 56px;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 217px;
+    margin-left: 250px;
+   
+    animation: animate 1s ease-in-out 1
+    forwards;
+}
+#pr{
+    font-size: 30px;
+    color: rgb(221, 219, 219);
+     margin-top: 288px;
+    margin-left: 260px;
+    position: absolute;
+    
+    animation: animate 1s ease-in-out 1
+    forwards;
+}
+@keyframes animate {
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+.social-icons{
+   position: absolute;
+    margin-top: 433px;
+    margin-left: 280px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 1
+    forwards;
+}
+.social-icons a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 13px;
+}
+.btn-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 300px;
+
+}
+.filter-btn {
+  background: rgb(1, 43, 60);
+  border-color:transparent;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  border-radius: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  color: white;
+  cursor: grab;
+  transition: opacity 0.4s ease-out;
+}
+.filter-btn:hover {
+  background: aliceblue;
+  color: black;
+}
+.filterbtn::selection{
+    background: aliceblue;
+    color: black
+}
+body{
+  overflow: hidden auto;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    position: relative;
+    font-family: "Lato" sans-serif;
+    top: 20px;
+    color: white;
+    display: inline-block;
+    font-size: 53px;
+    
+    animation: bounce 0.4s ease infinite alternate;
+}
+
+p span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+p span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+p span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+p span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+p span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+p span:nth-child(7) {
+    animation-delay: 0.6s;
+}
+p span:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+@keyframes bounce {
+    100%{
+        top: -20px;
+        
+    }
+}
